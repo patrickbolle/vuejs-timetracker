@@ -22,9 +22,9 @@ router.map({
     component: TimeEntries,
     subRoutes: {
       '/log-time': {
-        component: LogTime
-      }
-    }
+        component: LogTime,
+      },
+    },
   },
 });
 

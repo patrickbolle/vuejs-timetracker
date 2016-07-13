@@ -47,20 +47,20 @@ export default {
           lastName: 'Bollenbach',
           email: 'patrick.bolle@hotmail.com',
           image: 'https://1.gravatar.com/avatar/7f4ec37467f2f7db6fffc7b4d2cc8dc2?s=250&d=retro&r=g',
-        }
-      }
-    }
+        },
+      },
+    };
   },
   methods: {
-   save () {
-     let timeEntry = this.timeEntry;
-     // We dispatch the timeEntry so it can be pushed
-     // onto the timeEntries array in the parent component
-     this.$dispatch('timeUpdate', timeEntry);
-     this.timeEntry = {};
-   }
-  }
-}
+    save() {
+      const timeEntry = this.timeEntry;
+      // We dispatch the timeEntry so it can be pushed
+      // onto the timeEntries array in the parent component
+      this.$dispatch('timeUpdate', timeEntry);
+      this.timeEntry = {};
+    },
+  },
+};
 </script>
 
 <style lang="css">

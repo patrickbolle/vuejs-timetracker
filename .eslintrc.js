@@ -1,4 +1,4 @@
-module.exports = {
+/* module.exports = {
   root: true,
   parserOptions: {
     sourceType: 'module'
@@ -15,3 +15,4 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
 }
+*/
